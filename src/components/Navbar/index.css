@@ -18,4 +18,26 @@
 }
 .navBarContainerRight{
     display: flex;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+}
+.navBarContainerLeft{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+@media only screen and (max-width: 900px) {
+.navBarContainerRight{
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+}
+.navBarContainerLeft{
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+}
 }

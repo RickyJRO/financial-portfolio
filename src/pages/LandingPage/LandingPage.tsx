@@ -34,9 +34,7 @@ export default function LandingPage() {
       <div className='landingPageContainerBottom'>
       <div className='darkOverlay'>
       <div className='landingPageContainerBottomText'>
-        <div>
-          
-        </div>
+     
         <div className='landingPageText'>
         <p className='landingPageTextStyle'>
           What is it that drives a swarm of bees or a flock of birds? Who calls the shots for the next group movement among these creatures? 
