@@ -1,0 +1,40 @@
+.landingPageCard{
+    height: 200px;
+    width: 480px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.landingPageCardContainer{
+    padding: 14px;
+}
+.landingPageCardContainerTopTitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+.hrCard{
+    background-color:rgba(255, 255, 255, 0.473);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 500px) {
+    .landingPageCard{
+        width: 100%;
+        
+    }
+    .mainSectionCards{
+        padding: 1rem;
+    }
+    .landingPageCardContainerTopTitle{
+        font-size: 1.2rem;
+    }
+  }
